@@ -1,7 +1,7 @@
 #include <iostream>
 #include "FrequenceMap.h"
 
-FrequenceMap::FrequenceMap(string s){
+FrequenceMap::FrequenceMap(vector<string> s){
 	dict.clear();
 	word=s;
 }
@@ -31,7 +31,7 @@ int FrequenceMap::GetIndexOfElem(string c){
 
 void FrequenceMap::GetFrequence(){
 	for(int i=0; i<word.size();i++){
-		string c(1,word[i]);
+		string c=word[i];
 		if(!ExistInMap(c)){
 			//dict.insert(pair<char,int>(c,1));
 			dict.push_back(pair<string,int>(c,1));

@@ -107,7 +107,7 @@ bool CharInString(string s, string c){
     return false;
 }
 
-vector<pair<string,string>> HuffmanCompression(string word){
+vector<pair<string,string>> HuffmanCompression(vector<string> word){
 	FrequenceMap freqmap(word);
 
 	freqmap.GetFrequence();
