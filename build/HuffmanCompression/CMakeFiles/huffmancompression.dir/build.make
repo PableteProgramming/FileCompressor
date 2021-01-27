@@ -61,10 +61,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\cMake\FileCompressorPablo&Me"
+CMAKE_SOURCE_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\cMake\FileCompressorPablo&Me\build"
+CMAKE_BINARY_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build
 
 # Include any dependencies generated for this target.
 include HuffmanCompression/CMakeFiles/huffmancompression.dir/depend.make
@@ -78,72 +78,72 @@ include HuffmanCompression/CMakeFiles/huffmancompression.dir/flags.make
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.obj: HuffmanCompression/CMakeFiles/huffmancompression.dir/flags.make
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.obj: HuffmanCompression/CMakeFiles/huffmancompression.dir/includes_CXX.rsp
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.obj: ../HuffmanCompression/src/HuffmanCompression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\cMake\FileCompressorPablo&Me\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object HuffmanCompression/CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.obj"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huffmancompression.dir\src\HuffmanCompression.cpp.obj -c "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\HuffmanCompression.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object HuffmanCompression/CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huffmancompression.dir\src\HuffmanCompression.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\HuffmanCompression.cpp
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.i"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\HuffmanCompression.cpp" > CMakeFiles\huffmancompression.dir\src\HuffmanCompression.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\HuffmanCompression.cpp > CMakeFiles\huffmancompression.dir\src\HuffmanCompression.cpp.i
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.s"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\HuffmanCompression.cpp" -o CMakeFiles\huffmancompression.dir\src\HuffmanCompression.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\HuffmanCompression.cpp -o CMakeFiles\huffmancompression.dir\src\HuffmanCompression.cpp.s
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.obj: HuffmanCompression/CMakeFiles/huffmancompression.dir/flags.make
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.obj: HuffmanCompression/CMakeFiles/huffmancompression.dir/includes_CXX.rsp
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.obj: ../HuffmanCompression/src/FrequenceMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\cMake\FileCompressorPablo&Me\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object HuffmanCompression/CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.obj"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huffmancompression.dir\src\FrequenceMap.cpp.obj -c "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\FrequenceMap.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object HuffmanCompression/CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huffmancompression.dir\src\FrequenceMap.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\FrequenceMap.cpp
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.i"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\FrequenceMap.cpp" > CMakeFiles\huffmancompression.dir\src\FrequenceMap.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\FrequenceMap.cpp > CMakeFiles\huffmancompression.dir\src\FrequenceMap.cpp.i
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.s"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\FrequenceMap.cpp" -o CMakeFiles\huffmancompression.dir\src\FrequenceMap.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\FrequenceMap.cpp -o CMakeFiles\huffmancompression.dir\src\FrequenceMap.cpp.s
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Node.cpp.obj: HuffmanCompression/CMakeFiles/huffmancompression.dir/flags.make
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Node.cpp.obj: HuffmanCompression/CMakeFiles/huffmancompression.dir/includes_CXX.rsp
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Node.cpp.obj: ../HuffmanCompression/src/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\cMake\FileCompressorPablo&Me\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Node.cpp.obj"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huffmancompression.dir\src\Node.cpp.obj -c "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\Node.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Node.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huffmancompression.dir\src\Node.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\Node.cpp
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huffmancompression.dir/src/Node.cpp.i"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\Node.cpp" > CMakeFiles\huffmancompression.dir\src\Node.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\Node.cpp > CMakeFiles\huffmancompression.dir\src\Node.cpp.i
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huffmancompression.dir/src/Node.cpp.s"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\Node.cpp" -o CMakeFiles\huffmancompression.dir\src\Node.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\Node.cpp -o CMakeFiles\huffmancompression.dir\src\Node.cpp.s
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/MapSorter.cpp.obj: HuffmanCompression/CMakeFiles/huffmancompression.dir/flags.make
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/MapSorter.cpp.obj: HuffmanCompression/CMakeFiles/huffmancompression.dir/includes_CXX.rsp
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/MapSorter.cpp.obj: ../HuffmanCompression/src/MapSorter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\cMake\FileCompressorPablo&Me\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object HuffmanCompression/CMakeFiles/huffmancompression.dir/src/MapSorter.cpp.obj"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huffmancompression.dir\src\MapSorter.cpp.obj -c "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\MapSorter.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object HuffmanCompression/CMakeFiles/huffmancompression.dir/src/MapSorter.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huffmancompression.dir\src\MapSorter.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\MapSorter.cpp
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/MapSorter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huffmancompression.dir/src/MapSorter.cpp.i"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\MapSorter.cpp" > CMakeFiles\huffmancompression.dir\src\MapSorter.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\MapSorter.cpp > CMakeFiles\huffmancompression.dir\src\MapSorter.cpp.i
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/MapSorter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huffmancompression.dir/src/MapSorter.cpp.s"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\MapSorter.cpp" -o CMakeFiles\huffmancompression.dir\src\MapSorter.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\MapSorter.cpp -o CMakeFiles\huffmancompression.dir\src\MapSorter.cpp.s
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Tree.cpp.obj: HuffmanCompression/CMakeFiles/huffmancompression.dir/flags.make
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Tree.cpp.obj: HuffmanCompression/CMakeFiles/huffmancompression.dir/includes_CXX.rsp
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Tree.cpp.obj: ../HuffmanCompression/src/Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\cMake\FileCompressorPablo&Me\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Tree.cpp.obj"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huffmancompression.dir\src\Tree.cpp.obj -c "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Tree.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huffmancompression.dir\src\Tree.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\Tree.cpp
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huffmancompression.dir/src/Tree.cpp.i"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\Tree.cpp" > CMakeFiles\huffmancompression.dir\src\Tree.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\Tree.cpp > CMakeFiles\huffmancompression.dir\src\Tree.cpp.i
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huffmancompression.dir/src/Tree.cpp.s"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\cMake\FileCompressorPablo&Me\HuffmanCompression\src\Tree.cpp" -o CMakeFiles\huffmancompression.dir\src\Tree.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression\src\Tree.cpp -o CMakeFiles\huffmancompression.dir\src\Tree.cpp.s
 
 # Object files for target huffmancompression
 huffmancompression_OBJECTS = \
@@ -163,9 +163,9 @@ HuffmanCompression/libhuffmancompression.a: HuffmanCompression/CMakeFiles/huffma
 HuffmanCompression/libhuffmancompression.a: HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Tree.cpp.obj
 HuffmanCompression/libhuffmancompression.a: HuffmanCompression/CMakeFiles/huffmancompression.dir/build.make
 HuffmanCompression/libhuffmancompression.a: HuffmanCompression/CMakeFiles/huffmancompression.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\cMake\FileCompressorPablo&Me\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libhuffmancompression.a"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && $(CMAKE_COMMAND) -P CMakeFiles\huffmancompression.dir\cmake_clean_target.cmake
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\huffmancompression.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libhuffmancompression.a"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && $(CMAKE_COMMAND) -P CMakeFiles\huffmancompression.dir\cmake_clean_target.cmake
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\huffmancompression.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 HuffmanCompression/CMakeFiles/huffmancompression.dir/build: HuffmanCompression/libhuffmancompression.a
@@ -173,10 +173,10 @@ HuffmanCompression/CMakeFiles/huffmancompression.dir/build: HuffmanCompression/l
 .PHONY : HuffmanCompression/CMakeFiles/huffmancompression.dir/build
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/clean:
-	cd /d "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" && $(CMAKE_COMMAND) -P CMakeFiles\huffmancompression.dir\cmake_clean.cmake
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression && $(CMAKE_COMMAND) -P CMakeFiles\huffmancompression.dir\cmake_clean.cmake
 .PHONY : HuffmanCompression/CMakeFiles/huffmancompression.dir/clean
 
 HuffmanCompression/CMakeFiles/huffmancompression.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\cMake\FileCompressorPablo&Me" "D:\cMake\FileCompressorPablo&Me\HuffmanCompression" "D:\cMake\FileCompressorPablo&Me\build" "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression" "D:\cMake\FileCompressorPablo&Me\build\HuffmanCompression\CMakeFiles\huffmancompression.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\HuffmanCompression C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\HuffmanCompression\CMakeFiles\huffmancompression.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : HuffmanCompression/CMakeFiles/huffmancompression.dir/depend
 

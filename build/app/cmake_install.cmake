@@ -1,4 +1,4 @@
-# Install script for directory: D:/cMake/FileCompressorPablo&Me/app
+# Install script for directory: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

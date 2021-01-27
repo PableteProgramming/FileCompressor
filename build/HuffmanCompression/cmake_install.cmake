@@ -1,4 +1,4 @@
-# Install script for directory: D:/cMake/FileCompressorPablo&Me/HuffmanCompression
+# Install script for directory: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

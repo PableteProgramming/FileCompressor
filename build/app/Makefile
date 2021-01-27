@@ -66,10 +66,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\cMake\FileCompressorPablo&Me"
+CMAKE_SOURCE_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\cMake\FileCompressorPablo&Me\build"
+CMAKE_BINARY_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,14 +98,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d "D:\cMake\FileCompressorPablo&Me\build" && $(CMAKE_COMMAND) -E cmake_progress_start "D:\cMake\FileCompressorPablo&Me\build\CMakeFiles" "D:\cMake\FileCompressorPablo&Me\build\app\\CMakeFiles\progress.marks"
-	cd /d "D:\cMake\FileCompressorPablo&Me\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\cMake\FileCompressorPablo&Me\build\CMakeFiles" 0
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\CMakeFiles C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\app\\CMakeFiles\progress.marks
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d "D:\cMake\FileCompressorPablo&Me\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/clean
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/clean
 .PHONY : clean
 
 # The main clean target
@@ -115,22 +115,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d "D:\cMake\FileCompressorPablo&Me\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/preinstall
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d "D:\cMake\FileCompressorPablo&Me\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/preinstall
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d "D:\cMake\FileCompressorPablo&Me\build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 app/CMakeFiles/main.dir/rule:
-	cd /d "D:\cMake\FileCompressorPablo&Me\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/CMakeFiles/main.dir/rule
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/CMakeFiles/main.dir/rule
 .PHONY : app/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ main: app/CMakeFiles/main.dir/rule
 
 # fast build rule for target.
 main/fast:
-	cd /d "D:\cMake\FileCompressorPablo&Me\build" && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/build
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
 src/main.obj: src/main.cpp.obj
@@ -149,7 +149,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	cd /d "D:\cMake\FileCompressorPablo&Me\build" && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/src/main.cpp.obj
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -158,7 +158,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /d "D:\cMake\FileCompressorPablo&Me\build" && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/src/main.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -167,7 +167,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /d "D:\cMake\FileCompressorPablo&Me\build" && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/src/main.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -193,6 +193,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d "D:\cMake\FileCompressorPablo&Me\build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/cMake/FileCompressorPablo&Me/build"
+			"value" : "c:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/cMake/FileCompressorPablo&Me"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1327,7 +1327,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/cMake/FileCompressorPablo&Me/build"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build"
 		},
 		{
 			"name" : "MyProject_SOURCE_DIR",
@@ -1339,7 +1339,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/cMake/FileCompressorPablo&Me"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor"
 		}
 	],
 	"kind" : "cache",

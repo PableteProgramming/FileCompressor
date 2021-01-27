@@ -1,32 +1,32 @@
 [
 {
-  "directory": "D:/cMake/FileCompressorPablo&Me/build/HuffmanCompression",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/huffmancompression.dir/includes_CXX.rsp -g -o CMakeFiles\\huffmancompression.dir\\src\\HuffmanCompression.cpp.obj -c \"D:\\cMake\\FileCompressorPablo&Me\\HuffmanCompression\\src\\HuffmanCompression.cpp\"",
-  "file": "D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/HuffmanCompression.cpp"
+  "directory": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/HuffmanCompression",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/huffmancompression.dir/includes_CXX.rsp -g -o CMakeFiles\\huffmancompression.dir\\src\\HuffmanCompression.cpp.obj -c C:\\Users\\curro.LAPTOP-DUBBS74R\\OneDrive\\Documentos\\Programming\\C++\\FileCompressor\\HuffmanCompression\\src\\HuffmanCompression.cpp",
+  "file": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/HuffmanCompression.cpp"
 },
 {
-  "directory": "D:/cMake/FileCompressorPablo&Me/build/HuffmanCompression",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/huffmancompression.dir/includes_CXX.rsp -g -o CMakeFiles\\huffmancompression.dir\\src\\FrequenceMap.cpp.obj -c \"D:\\cMake\\FileCompressorPablo&Me\\HuffmanCompression\\src\\FrequenceMap.cpp\"",
-  "file": "D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/FrequenceMap.cpp"
+  "directory": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/HuffmanCompression",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/huffmancompression.dir/includes_CXX.rsp -g -o CMakeFiles\\huffmancompression.dir\\src\\FrequenceMap.cpp.obj -c C:\\Users\\curro.LAPTOP-DUBBS74R\\OneDrive\\Documentos\\Programming\\C++\\FileCompressor\\HuffmanCompression\\src\\FrequenceMap.cpp",
+  "file": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/FrequenceMap.cpp"
 },
 {
-  "directory": "D:/cMake/FileCompressorPablo&Me/build/HuffmanCompression",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/huffmancompression.dir/includes_CXX.rsp -g -o CMakeFiles\\huffmancompression.dir\\src\\Node.cpp.obj -c \"D:\\cMake\\FileCompressorPablo&Me\\HuffmanCompression\\src\\Node.cpp\"",
-  "file": "D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/Node.cpp"
+  "directory": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/HuffmanCompression",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/huffmancompression.dir/includes_CXX.rsp -g -o CMakeFiles\\huffmancompression.dir\\src\\Node.cpp.obj -c C:\\Users\\curro.LAPTOP-DUBBS74R\\OneDrive\\Documentos\\Programming\\C++\\FileCompressor\\HuffmanCompression\\src\\Node.cpp",
+  "file": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/Node.cpp"
 },
 {
-  "directory": "D:/cMake/FileCompressorPablo&Me/build/HuffmanCompression",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/huffmancompression.dir/includes_CXX.rsp -g -o CMakeFiles\\huffmancompression.dir\\src\\MapSorter.cpp.obj -c \"D:\\cMake\\FileCompressorPablo&Me\\HuffmanCompression\\src\\MapSorter.cpp\"",
-  "file": "D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/MapSorter.cpp"
+  "directory": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/HuffmanCompression",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/huffmancompression.dir/includes_CXX.rsp -g -o CMakeFiles\\huffmancompression.dir\\src\\MapSorter.cpp.obj -c C:\\Users\\curro.LAPTOP-DUBBS74R\\OneDrive\\Documentos\\Programming\\C++\\FileCompressor\\HuffmanCompression\\src\\MapSorter.cpp",
+  "file": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/MapSorter.cpp"
 },
 {
-  "directory": "D:/cMake/FileCompressorPablo&Me/build/HuffmanCompression",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/huffmancompression.dir/includes_CXX.rsp -g -o CMakeFiles\\huffmancompression.dir\\src\\Tree.cpp.obj -c \"D:\\cMake\\FileCompressorPablo&Me\\HuffmanCompression\\src\\Tree.cpp\"",
-  "file": "D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/Tree.cpp"
+  "directory": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/HuffmanCompression",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/huffmancompression.dir/includes_CXX.rsp -g -o CMakeFiles\\huffmancompression.dir\\src\\Tree.cpp.obj -c C:\\Users\\curro.LAPTOP-DUBBS74R\\OneDrive\\Documentos\\Programming\\C++\\FileCompressor\\HuffmanCompression\\src\\Tree.cpp",
+  "file": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/Tree.cpp"
 },
 {
-  "directory": "D:/cMake/FileCompressorPablo&Me/build/app",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c \"D:\\cMake\\FileCompressorPablo&Me\\app\\src\\main.cpp\"",
-  "file": "D:/cMake/FileCompressorPablo&Me/app/src/main.cpp"
+  "directory": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/app",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\Users\\curro.LAPTOP-DUBBS74R\\OneDrive\\Documentos\\Programming\\C++\\FileCompressor\\app\\src\\main.cpp",
+  "file": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/app/src/main.cpp"
 }
 ]

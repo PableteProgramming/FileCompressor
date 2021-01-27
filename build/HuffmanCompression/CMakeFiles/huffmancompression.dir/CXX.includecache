@@ -40,27 +40,27 @@ string
 Node.h
 ../HuffmanCompression/include/Node.h
 
-D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/FrequenceMap.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/FrequenceMap.cpp
 iostream
 -
 FrequenceMap.h
-D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/FrequenceMap.h
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/FrequenceMap.h
 
-D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/HuffmanCompression.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/HuffmanCompression.cpp
 HuffmanCompression.h
-D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/HuffmanCompression.h
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/HuffmanCompression.h
 
-D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/MapSorter.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/MapSorter.cpp
 MapSorter.h
-D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/MapSorter.h
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/MapSorter.h
 
-D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/Node.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/Node.cpp
 Node.h
-D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/Node.h
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/Node.h
 
-D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/Tree.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/Tree.cpp
 Tree.h
-D:/cMake/FileCompressorPablo&Me/HuffmanCompression/src/Tree.h
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/Tree.h
 stdlib.h
 -
 iostream

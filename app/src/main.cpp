@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 	ifstream file;
-	file.open("main.exe");
+	file.open("test.txt");
 	string text;
 	string line;
 
@@ -34,7 +34,7 @@ int main(){
 	//cout << compressedText << endl;
 
 	ofstream file1;
-	file1.open("compressedText.exe");
+	file1.open("compressedText.txt");
 
 	file1 << compressedText;
 
