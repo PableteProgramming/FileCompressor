@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 	ifstream file;
-	file.open("test.txt");
+	file.open("main.exe");
 	string text;
 	string line;
 
@@ -17,8 +17,9 @@ int main(){
 		}
 	}
 
-	cout << text << endl;
-	
+	file.close();
+
+	//cout << text << endl;
 
 	vector<pair<string,string>> codes= HuffmanCompression(StringToArrayOfCharsString(text));
 
@@ -26,9 +27,18 @@ int main(){
 	// 	cout<<codes[i].first<<" : "<<codes[i].second<<endl;
 	// }
 
-	cout << "[COMPRESSED TEXT] :" << endl;
+	// cout << "[COMPRESSED TEXT] :" << endl;
 
-	cout << CodesToString(codes, text);
+	string compressedText = CodesToString(codes, text);
+
+	//cout << compressedText << endl;
+
+	ofstream file1;
+	file1.open("compressedText.exe");
+
+	file1 << compressedText;
+
+	file1.close();
 
 	cin.ignore();
 
