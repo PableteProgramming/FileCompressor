@@ -1,6 +1,6 @@
 set(SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
 
-add_library(huffmancompression ${SRC_DIR}/main.cpp)
+add_library(huffmancompression ${SRC_DIR}/HuffmanCompression.cpp)
 
 target_include_directories(huffmancompression PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include")
 

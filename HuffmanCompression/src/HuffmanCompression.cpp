@@ -1,9 +1,4 @@
-#include "FrequenceMap.h"
-#include "MapSorter.h"
-#include <vector>
-#include "Tree.h"
-
-bool CharInString(string s, string c);
+#include "HuffmanCompression.h"
 
 Node* AddNode(pair<string,int> p){
     return new Node(p);
@@ -110,4 +105,35 @@ bool CharInString(string s, string c){
         }
     }
     return false;
+}
+
+vector<pair<string,string>> HuffmanCompression(string word){
+	FrequenceMap freqmap(word);
+
+	freqmap.GetFrequence();
+
+	MapSorter ord(freqmap.GetDict());
+
+	ord.Sort();
+
+	vector<Node*> nodes;
+	nodes.clear();
+
+	vector<Node*> tempNodes;
+	tempNodes= VectorPairToVectorNode(ord.GetDict());
+
+	Tree tree=CreateTree(tempNodes);
+
+	vector<pair<string,string>> codes;
+	codes.clear();
+
+	vector<pair<string,int>> tempfreq= freqmap.GetDict();
+
+	for(int i=0; i<tempfreq.size();i++){
+		codes.push_back(make_pair(tempfreq[i].first,
+			GetLetterCode(tree,tempfreq[i].first,"")
+		));
+	}
+
+	return codes;
 }
