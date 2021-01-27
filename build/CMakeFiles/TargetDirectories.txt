@@ -1,0 +1,8 @@
+D:/cMake/FileCompressorPablo&Me/build/CMakeFiles/edit_cache.dir
+D:/cMake/FileCompressorPablo&Me/build/CMakeFiles/rebuild_cache.dir
+D:/cMake/FileCompressorPablo&Me/build/HuffmanCompression/CMakeFiles/edit_cache.dir
+D:/cMake/FileCompressorPablo&Me/build/HuffmanCompression/CMakeFiles/huffmancompression.dir
+D:/cMake/FileCompressorPablo&Me/build/HuffmanCompression/CMakeFiles/rebuild_cache.dir
+D:/cMake/FileCompressorPablo&Me/build/app/CMakeFiles/edit_cache.dir
+D:/cMake/FileCompressorPablo&Me/build/app/CMakeFiles/main.dir
+D:/cMake/FileCompressorPablo&Me/build/app/CMakeFiles/rebuild_cache.dir

@@ -1,5 +1,9 @@
 #include <string>
 #include <vector>
+#include <iostream>
+#include <map>
+#include <HuffmanCompression.h>
+#include <fstream>
 using namespace std;
 
 vector<string> StringToArrayOfCharsString(string s){
