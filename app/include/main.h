@@ -16,5 +16,30 @@ vector<string> StringToArrayOfCharsString(string s){
     }
 
     return r;
+}
 
+int GetLetterCodeIndex(vector<pair<string, string>> v, string letter)
+{
+    for (int i = 0; i < v.size(); i++)
+    {
+        if (v[i].first == letter)
+            return i;
+    }
+    return -1;
+}
+
+string CodesToString(vector<pair<string, string>> v, string s)
+{
+    string r;
+    r.clear();
+
+    for (int i = 0; i < s.size(); i++)
+    {
+        int index = GetLetterCodeIndex(v, string(1, s[i]));
+        if (index != -1)
+        {
+            r += v[index].second;
+        }
+    }
+    return r;
 }

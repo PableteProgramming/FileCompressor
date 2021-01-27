@@ -22,9 +22,13 @@ int main(){
 
 	vector<pair<string,string>> codes= HuffmanCompression(StringToArrayOfCharsString(text));
 
-	for(int i=0; i<codes.size();i++){
-		cout<<codes[i].first<<" : "<<codes[i].second<<endl;
-	}
+	// for(int i=0; i<codes.size();i++){
+	// 	cout<<codes[i].first<<" : "<<codes[i].second<<endl;
+	// }
+
+	cout << "[COMPRESSED TEXT] :" << endl;
+
+	cout << CodesToString(codes, text);
 
 	cin.ignore();
 
