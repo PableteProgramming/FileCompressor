@@ -43,3 +43,11 @@ string CodesToString(vector<pair<string, string>> v, string s)
     }
     return r;
 }
+
+string CharArrayToString(vector<char> v){
+    string r="";
+    for(int i=0; i< v.size();i++){
+        r+=string(1,v[i]);
+    }
+    return r;
+}

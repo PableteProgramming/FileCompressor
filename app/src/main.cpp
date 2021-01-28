@@ -4,41 +4,44 @@ using namespace std;
 
 
 int main(){
-	ifstream file;
-	file.open("test.txt");
-	string text;
-	string line;
 
-	if (file.is_open())
-	{
-		while (getline(file, line))
-		{
-			text += line + "\n";
-		}
-	}
+	cout<<"Reading input file bytes..."<<endl;
+
+	ifstream file;
+	file.open("hello.exe",ios_base::binary);
+
+	file.seekg(0, std::ios_base::end);
+	size_t length = file.tellg();
+	file.seekg(0, std::ios_base::beg);
+
+	std::vector<char> buffer;
+	buffer.reserve(length);
+	std::copy( std::istreambuf_iterator<char>(file),
+           std::istreambuf_iterator<char>(),
+           std::back_inserter(buffer) );
 
 	file.close();
 
-	//cout << text << endl;
+	cout<<"\nGenerating bytes code..."<<endl;
 
-	vector<pair<string,string>> codes= HuffmanCompression(StringToArrayOfCharsString(text));
+	vector<pair<string,string>> codes= HuffmanCompression(
+		StringToArrayOfCharsString(CharArrayToString(buffer)
+	));
 
-	// for(int i=0; i<codes.size();i++){
-	// 	cout<<codes[i].first<<" : "<<codes[i].second<<endl;
-	// }
+	string compressedText = CodesToString(codes, CharArrayToString(buffer));
 
-	// cout << "[COMPRESSED TEXT] :" << endl;
-
-	string compressedText = CodesToString(codes, text);
-
-	//cout << compressedText << endl;
+	cout<<"\nWriting in output file..."<<endl;
 
 	ofstream file1;
-	file1.open("compressedText.txt");
+	file1.open("hello.exe.huff");
 
 	file1 << compressedText;
 
 	file1.close();
+
+	cout<<"\nFinished !"<<endl;
+
+	cout<<"\nPress something to exit...";
 
 	cin.ignore();
 
