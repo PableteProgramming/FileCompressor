@@ -28,5 +28,10 @@
   "directory": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/app",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\Users\\curro.LAPTOP-DUBBS74R\\OneDrive\\Documentos\\Programming\\C++\\FileCompressor\\app\\src\\main.cpp",
   "file": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/app/src/main.cpp"
+},
+{
+  "directory": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/app",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\WriteFile.cpp.obj -c C:\\Users\\curro.LAPTOP-DUBBS74R\\OneDrive\\Documentos\\Programming\\C++\\FileCompressor\\app\\src\\WriteFile.cpp",
+  "file": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/app/src/WriteFile.cpp"
 }
 ]

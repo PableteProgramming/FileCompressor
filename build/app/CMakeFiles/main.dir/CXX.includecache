@@ -40,6 +40,10 @@ string
 Node.h
 ../HuffmanCompression/include/Node.h
 
+../app/include/WriteFile.h
+fstream
+-
+
 ../app/include/main.h
 string
 -
@@ -53,6 +57,8 @@ HuffmanCompression.h
 -
 fstream
 -
+WriteFile.h
+../app/include/WriteFile.h
 
 C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/app/src/main.cpp
 main.h

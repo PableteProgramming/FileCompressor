@@ -4,6 +4,7 @@
 #include <map>
 #include <HuffmanCompression.h>
 #include <fstream>
+#include "WriteFile.h"
 using namespace std;
 
 vector<string> StringToArrayOfCharsString(string s){
@@ -48,6 +49,15 @@ string CharArrayToString(vector<char> v){
     string r="";
     for(int i=0; i< v.size();i++){
         r+=string(1,v[i]);
+    }
+    return r;
+}
+
+vector<int> CompressedTextToVectorOfInt(string comptext){
+    vector<int> r;
+    r.clear();
+    for(int i=0; i<comptext.size();i++){
+        r.push_back(stoi(string(1,comptext[i])));
     }
     return r;
 }

@@ -143,6 +143,33 @@ main/fast:
 	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/WriteFile.obj: src/WriteFile.cpp.obj
+
+.PHONY : src/WriteFile.obj
+
+# target to build an object file
+src/WriteFile.cpp.obj:
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/src/WriteFile.cpp.obj
+.PHONY : src/WriteFile.cpp.obj
+
+src/WriteFile.i: src/WriteFile.cpp.i
+
+.PHONY : src/WriteFile.i
+
+# target to preprocess a source file
+src/WriteFile.cpp.i:
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/src/WriteFile.cpp.i
+.PHONY : src/WriteFile.cpp.i
+
+src/WriteFile.s: src/WriteFile.cpp.s
+
+.PHONY : src/WriteFile.s
+
+# target to generate assembly for a file
+src/WriteFile.cpp.s:
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/src/WriteFile.cpp.s
+.PHONY : src/WriteFile.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -179,6 +206,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main
+	@echo ... src/WriteFile.obj
+	@echo ... src/WriteFile.i
+	@echo ... src/WriteFile.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
