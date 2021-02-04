@@ -43,6 +43,8 @@ Node.h
 ../app/include/WriteFile.h
 fstream
 -
+vector
+-
 
 ../app/include/main.h
 string

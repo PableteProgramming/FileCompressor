@@ -55,9 +55,7 @@ int main(){
 
 	WriteFile filewriter(file1);
 
-	for(int i=0; i<compTextInt.size();i++){
-		filewriter.Write(compTextInt[i]);
-	}
+	filewriter.Write(compTextInt);
 
 	file1.close();
 
@@ -65,6 +63,38 @@ int main(){
 
 	//Finished compressing !
 
+	cout<<"Decompressing file..."<<endl;
+
+	string inputfilecontent="";
+
+	
+	ifstream file2;
+	file2.open("hello.exe.huff",ios_base::binary);
+
+	file2.seekg(0, std::ios_base::end);
+	size_t length1 = file2.tellg();
+	file2.seekg(0, std::ios_base::beg);
+
+	std::vector<char> buffer1;
+	buffer1.reserve(length1);
+	std::copy( std::istreambuf_iterator<char>(file2),
+           std::istreambuf_iterator<char>(),
+           std::back_inserter(buffer1) );
+
+	file2.close();
+
+	string inputfilecontentnew= CharArrayToString(buffer1);
+
+	vector<int> inputfilecontentdecompressed=DecompressCompressedText(inputfilecontentnew);
+
+	string decompressednewfilecontent= HuffmanDecompression(codes,VectorIntToString(inputfilecontentdecompressed));
+
+	ofstream file3;
+	file3.open("hellod.exe",ios_base::binary);
+
+	file3<<decompressednewfilecontent;
+
+	file3.close();
 
 	cout<<"\nPress something to exit...";
 

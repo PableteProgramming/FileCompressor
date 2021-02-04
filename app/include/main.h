@@ -61,3 +61,94 @@ vector<int> CompressedTextToVectorOfInt(string comptext){
     }
     return r;
 }
+
+pair<int,string> GetHeaderOfCompressedString(string s, char delimiter){
+    pair<int,string> r;
+    string header;
+    string content;
+    for(int i=0; i<s.size();i++){
+        if(s[i]!=delimiter){
+            header+=s[i];
+        }
+        else{
+            for(int j=i+1;j<s.size();j++){
+                content+= s[j];
+            }
+            break;
+        }
+    }
+    r= make_pair(stoi(header),content);
+    return r;
+}
+
+vector<int> DecompressCompressedText(string str){
+    pair<int,string> content= GetHeaderOfCompressedString(str,'\n');
+    int endcharsTodelete= content.first-1;
+    string s= content.second;
+    vector<int> r;
+    r.clear();
+    char c;
+    for(int i=0; i<s.size();i++){
+        c=s[i];
+        for(int i=7;i>=0;i--){
+            r.push_back((c >> i) & 1);
+        }
+    }
+
+    for(int i=0; i<(8-endcharsTodelete);i++){
+        r.pop_back();
+    }
+
+    return r;
+}
+
+bool CodeExists(vector<pair<string,string>> v, string code){
+    for(int i=0; i<v.size();i++){
+        if(v[i].second==code){
+            return true;
+        }
+    }
+    return false;
+}
+
+string GetCharWithCode(vector<pair<string,string>> v, string code){
+    string r="";
+    for(int i=0; i<v.size();i++){
+        if(v[i].second==code){
+            r=v[i].first;
+            break;
+        }
+    }
+    return r;
+}
+
+
+string HuffmanDecompression(vector<pair<string,string>> v, string comptext){
+    string code="";
+    string r="";
+    for(int i=0; i<comptext.size();i++){
+        if(CodeExists(v,code)){
+            r+=GetCharWithCode(v,code);
+            code="";
+            code+=comptext[i];
+        }
+        else{
+            code+=comptext[i];
+        }
+    }
+
+    if(CodeExists(v,code)){
+        r+=GetCharWithCode(v,code);
+    }
+
+    return r;
+}
+
+
+string VectorIntToString(vector<int> content){
+    string r="";
+    for(int i=0; i<content.size();i++){
+        r+= to_string(content[i]);
+    }
+    return r;
+}
