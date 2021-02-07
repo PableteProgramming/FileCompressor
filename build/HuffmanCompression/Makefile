@@ -197,33 +197,6 @@ src/Huffman.cpp.s:
 	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f HuffmanCompression\CMakeFiles\huffmancompression.dir\build.make HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Huffman.cpp.s
 .PHONY : src/Huffman.cpp.s
 
-src/HuffmanCompression.obj: src/HuffmanCompression.cpp.obj
-
-.PHONY : src/HuffmanCompression.obj
-
-# target to build an object file
-src/HuffmanCompression.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f HuffmanCompression\CMakeFiles\huffmancompression.dir\build.make HuffmanCompression/CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.obj
-.PHONY : src/HuffmanCompression.cpp.obj
-
-src/HuffmanCompression.i: src/HuffmanCompression.cpp.i
-
-.PHONY : src/HuffmanCompression.i
-
-# target to preprocess a source file
-src/HuffmanCompression.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f HuffmanCompression\CMakeFiles\huffmancompression.dir\build.make HuffmanCompression/CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.i
-.PHONY : src/HuffmanCompression.cpp.i
-
-src/HuffmanCompression.s: src/HuffmanCompression.cpp.s
-
-.PHONY : src/HuffmanCompression.s
-
-# target to generate assembly for a file
-src/HuffmanCompression.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f HuffmanCompression\CMakeFiles\huffmancompression.dir\build.make HuffmanCompression/CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.s
-.PHONY : src/HuffmanCompression.cpp.s
-
 src/MapSorter.obj: src/MapSorter.cpp.obj
 
 .PHONY : src/MapSorter.obj
@@ -305,6 +278,33 @@ src/Tree.cpp.s:
 	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f HuffmanCompression\CMakeFiles\huffmancompression.dir\build.make HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Tree.cpp.s
 .PHONY : src/Tree.cpp.s
 
+src/WriteFile.obj: src/WriteFile.cpp.obj
+
+.PHONY : src/WriteFile.obj
+
+# target to build an object file
+src/WriteFile.cpp.obj:
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f HuffmanCompression\CMakeFiles\huffmancompression.dir\build.make HuffmanCompression/CMakeFiles/huffmancompression.dir/src/WriteFile.cpp.obj
+.PHONY : src/WriteFile.cpp.obj
+
+src/WriteFile.i: src/WriteFile.cpp.i
+
+.PHONY : src/WriteFile.i
+
+# target to preprocess a source file
+src/WriteFile.cpp.i:
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f HuffmanCompression\CMakeFiles\huffmancompression.dir\build.make HuffmanCompression/CMakeFiles/huffmancompression.dir/src/WriteFile.cpp.i
+.PHONY : src/WriteFile.cpp.i
+
+src/WriteFile.s: src/WriteFile.cpp.s
+
+.PHONY : src/WriteFile.s
+
+# target to generate assembly for a file
+src/WriteFile.cpp.s:
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f HuffmanCompression\CMakeFiles\huffmancompression.dir\build.make HuffmanCompression/CMakeFiles/huffmancompression.dir/src/WriteFile.cpp.s
+.PHONY : src/WriteFile.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -320,9 +320,6 @@ help:
 	@echo ... src/Huffman.obj
 	@echo ... src/Huffman.i
 	@echo ... src/Huffman.s
-	@echo ... src/HuffmanCompression.obj
-	@echo ... src/HuffmanCompression.i
-	@echo ... src/HuffmanCompression.s
 	@echo ... src/MapSorter.obj
 	@echo ... src/MapSorter.i
 	@echo ... src/MapSorter.s
@@ -332,6 +329,9 @@ help:
 	@echo ... src/Tree.obj
 	@echo ... src/Tree.i
 	@echo ... src/Tree.s
+	@echo ... src/WriteFile.obj
+	@echo ... src/WriteFile.i
+	@echo ... src/WriteFile.s
 .PHONY : help
 
 

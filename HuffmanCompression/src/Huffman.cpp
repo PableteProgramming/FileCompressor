@@ -32,6 +32,26 @@ vector<pair<string,string>> Huffman::Utilities::GetCodes(vector<string> word){
 	return codes;
 }
 
+string Huffman::Utilities::UtilityDecompress(vector<pair<string, string>> codes,string comptext){
+    string code="";
+    string r="";
+    for(int i=0; i<comptext.size();i++){
+        if(CodeExists(codes,code)){
+            r+=GetCharWithCode(codes,code);
+            code="";
+            code+=comptext[i];
+        }
+        else{
+            code+=comptext[i];
+        }
+    }
+
+    if(CodeExists(codes,code)){
+        r+=GetCharWithCode(codes,code);
+    }
+
+    return r;
+}
 
 
 vector<string> Huffman::Text::StringToStringArray(string s){
@@ -178,7 +198,7 @@ pair<string,vector<pair<string, string>>> Huffman::Text::Compress(string word){
 }
 
 
-bool Huffman::Text::CodeExists(vector<pair<string,string>> v, string code){
+bool Huffman::Utilities::CodeExists(vector<pair<string,string>> v, string code){
     for(int i=0; i<v.size();i++){
         if(v[i].second==code){
             return true;
@@ -187,7 +207,7 @@ bool Huffman::Text::CodeExists(vector<pair<string,string>> v, string code){
     return false;
 }
 
-string Huffman::Text::GetCharWithCode(vector<pair<string,string>> v, string code){
+string Huffman::Utilities::GetCharWithCode(vector<pair<string,string>> v, string code){
     string r="";
     for(int i=0; i<v.size();i++){
         if(v[i].second==code){
@@ -200,24 +220,7 @@ string Huffman::Text::GetCharWithCode(vector<pair<string,string>> v, string code
 
 
 string Huffman::Text::Decompress(vector<pair<string, string>> codes,string comptext){
-    string code="";
-    string r="";
-    for(int i=0; i<comptext.size();i++){
-        if(CodeExists(codes,code)){
-            r+=GetCharWithCode(codes,code);
-            code="";
-            code+=comptext[i];
-        }
-        else{
-            code+=comptext[i];
-        }
-    }
-
-    if(CodeExists(codes,code)){
-        r+=GetCharWithCode(codes,code);
-    }
-
-    return r;
+    return UtilityDecompress(codes,comptext);
 }
 
 vector<string> Huffman::File::StringToArrayOfCharsString(string s){
@@ -302,6 +305,91 @@ vector<pair<string, string>> Huffman::File::Compress(string i, string o){
 
 }
 
+pair<int,string> Huffman::File::GetHeaderOfCompressedString(string s, char delimiter){
+    pair<int,string> r;
+    string header;
+    string content;
+    for(int i=0; i<s.size();i++){
+        if(s[i]!=delimiter){
+            header+=s[i];
+        }
+        else{
+            for(int j=i+1;j<s.size();j++){
+                content+= s[j];
+            }
+            break;
+        }
+    }
+    r= make_pair(stoi(header),content);
+    return r;
+}
+
+vector<int> Huffman::File::DecompressCompressedText(string str){
+    pair<int,string> content= GetHeaderOfCompressedString(str,'\n');
+    int endcharsTodelete= content.first-1;
+    string s= content.second;
+    vector<int> r;
+    r.clear();
+    char c;
+    for(int i=0; i<s.size();i++){
+        c=s[i];
+        for(int i=7;i>=0;i--){
+            r.push_back((c >> i) & 1);
+        }
+    }
+
+    for(int i=0; i<(8-endcharsTodelete);i++){
+        r.pop_back();
+    }
+
+    return r;
+}
+
+string Huffman::File::VectorIntToString(vector<int> content){
+    string r="";
+    for(int i=0; i<content.size();i++){
+        r+= to_string(content[i]);
+    }
+    return r;
+}
+
 void Huffman::File::Decompress(vector<pair<string, string>> codes,string i,string o){
 
+    ifstream file;
+	file.open(i,ios_base::binary);
+
+    if(!file){
+        cout<<"Error while opening: "<<i<<endl;
+        return;
+    }    
+
+	file.seekg(0, std::ios_base::end);
+	size_t length1 = file.tellg();
+	file.seekg(0, std::ios_base::beg);
+
+	std::vector<char> buffer;
+	buffer.reserve(length1);
+	std::copy( std::istreambuf_iterator<char>(file),
+           std::istreambuf_iterator<char>(),
+           std::back_inserter(buffer) );
+
+	file.close();
+
+    string inputfilecontentnew= CharArrayToString(buffer);
+
+	vector<int> inputfilecontentdecompressed=DecompressCompressedText(inputfilecontentnew);
+
+    string decompressednewfilecontent= UtilityDecompress(codes,VectorIntToString(inputfilecontentdecompressed));
+
+    ofstream file3;
+    if(!file3){
+        cout<<"Error while opening: "<<o<<endl;
+        return;
+    } 
+
+	file3.open(o,ios_base::binary);
+
+	file3<<decompressednewfilecontent;
+
+	file3.close();
 }
