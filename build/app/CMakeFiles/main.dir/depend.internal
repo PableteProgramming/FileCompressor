@@ -6,7 +6,7 @@ app/CMakeFiles/main.dir/src/WriteFile.cpp.obj
  C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/app/src/WriteFile.cpp
 app/CMakeFiles/main.dir/src/main.cpp.obj
  ../HuffmanCompression/include/FrequenceMap.h
- ../HuffmanCompression/include/HuffmanCompression.h
+ ../HuffmanCompression/include/Huffman.h
  ../HuffmanCompression/include/MapSorter.h
  ../HuffmanCompression/include/Node.h
  ../HuffmanCompression/include/Tree.h

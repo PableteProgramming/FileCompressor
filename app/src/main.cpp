@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-	cout<<"Reading input file bytes..."<<endl;
+	/*cout<<"Reading input file bytes..."<<endl;
 
 	ifstream file;
 	file.open("hello.exe",ios_base::binary);
@@ -94,7 +94,15 @@ int main(){
 
 	file3<<decompressednewfilecontent;
 
-	file3.close();
+	file3.close();*/
+
+	Huffman::Text textcompressor;
+
+	pair<string,vector<pair<string, string>>> textcompressorcontent= textcompressor.Compress("banana");
+
+	cout<<"compressed banana: "<<textcompressorcontent.first<<endl;
+
+	cout<<"decompressed banana: "<<textcompressor.Decompress(textcompressorcontent.second,textcompressorcontent.first)<<endl;
 
 	cout<<"\nPress something to exit...";
 

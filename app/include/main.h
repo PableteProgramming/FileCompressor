@@ -2,7 +2,8 @@
 #include <vector>
 #include <iostream>
 #include <map>
-#include <HuffmanCompression.h>
+//#include <HuffmanCompression.h>
+#include <Huffman.h>
 #include <fstream>
 #include "WriteFile.h"
 using namespace std;

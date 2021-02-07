@@ -25,6 +25,11 @@
   "file": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/Tree.cpp"
 },
 {
+  "directory": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/HuffmanCompression",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/huffmancompression.dir/includes_CXX.rsp -g -o CMakeFiles\\huffmancompression.dir\\src\\Huffman.cpp.obj -c C:\\Users\\curro.LAPTOP-DUBBS74R\\OneDrive\\Documentos\\Programming\\C++\\FileCompressor\\HuffmanCompression\\src\\Huffman.cpp",
+  "file": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/Huffman.cpp"
+},
+{
   "directory": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/app",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\Users\\curro.LAPTOP-DUBBS74R\\OneDrive\\Documentos\\Programming\\C++\\FileCompressor\\app\\src\\main.cpp",
   "file": "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/app/src/main.cpp"

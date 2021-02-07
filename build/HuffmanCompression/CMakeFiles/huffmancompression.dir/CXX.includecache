@@ -12,13 +12,15 @@ vector
 string
 -
 
-../HuffmanCompression/include/HuffmanCompression.h
+../HuffmanCompression/include/Huffman.h
+vector
+-
+string
+-
 FrequenceMap.h
 ../HuffmanCompression/include/FrequenceMap.h
 MapSorter.h
 ../HuffmanCompression/include/MapSorter.h
-vector
--
 Tree.h
 ../HuffmanCompression/include/Tree.h
 
@@ -40,7 +42,7 @@ string
 Node.h
 ../HuffmanCompression/include/Node.h
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/HuffmanCompression.cpp
-HuffmanCompression.h
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/HuffmanCompression.h
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/Huffman.cpp
+Huffman.h
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/Huffman.h
 

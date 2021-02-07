@@ -12,13 +12,15 @@ vector
 string
 -
 
-../HuffmanCompression/include/HuffmanCompression.h
+../HuffmanCompression/include/Huffman.h
+vector
+-
+string
+-
 FrequenceMap.h
 ../HuffmanCompression/include/FrequenceMap.h
 MapSorter.h
 ../HuffmanCompression/include/MapSorter.h
-vector
--
 Tree.h
 ../HuffmanCompression/include/Tree.h
 
@@ -55,7 +57,7 @@ iostream
 -
 map
 -
-HuffmanCompression.h
+Huffman.h
 -
 fstream
 -

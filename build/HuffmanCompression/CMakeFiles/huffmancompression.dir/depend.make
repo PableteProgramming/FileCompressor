@@ -4,6 +4,13 @@
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.obj: ../HuffmanCompression/include/FrequenceMap.h
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.obj: ../HuffmanCompression/src/FrequenceMap.cpp
 
+HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Huffman.cpp.obj: ../HuffmanCompression/include/FrequenceMap.h
+HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Huffman.cpp.obj: ../HuffmanCompression/include/Huffman.h
+HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Huffman.cpp.obj: ../HuffmanCompression/include/MapSorter.h
+HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Huffman.cpp.obj: ../HuffmanCompression/include/Node.h
+HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Huffman.cpp.obj: ../HuffmanCompression/include/Tree.h
+HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Huffman.cpp.obj: ../HuffmanCompression/src/Huffman.cpp
+
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.obj: ../HuffmanCompression/include/FrequenceMap.h
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.obj: ../HuffmanCompression/include/HuffmanCompression.h
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.obj: ../HuffmanCompression/include/MapSorter.h

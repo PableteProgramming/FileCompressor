@@ -5,7 +5,7 @@ app/CMakeFiles/main.dir/src/WriteFile.cpp.obj: ../app/include/WriteFile.h
 app/CMakeFiles/main.dir/src/WriteFile.cpp.obj: ../app/src/WriteFile.cpp
 
 app/CMakeFiles/main.dir/src/main.cpp.obj: ../HuffmanCompression/include/FrequenceMap.h
-app/CMakeFiles/main.dir/src/main.cpp.obj: ../HuffmanCompression/include/HuffmanCompression.h
+app/CMakeFiles/main.dir/src/main.cpp.obj: ../HuffmanCompression/include/Huffman.h
 app/CMakeFiles/main.dir/src/main.cpp.obj: ../HuffmanCompression/include/MapSorter.h
 app/CMakeFiles/main.dir/src/main.cpp.obj: ../HuffmanCompression/include/Node.h
 app/CMakeFiles/main.dir/src/main.cpp.obj: ../HuffmanCompression/include/Tree.h

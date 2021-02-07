@@ -10,4 +10,5 @@ target_sources(
     ${SRC_DIR}/Node.cpp
     ${SRC_DIR}/MapSorter.cpp
     ${SRC_DIR}/Tree.cpp
+    ${SRC_DIR}/Huffman.cpp
 )

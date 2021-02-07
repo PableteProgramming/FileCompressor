@@ -170,6 +170,33 @@ src/FrequenceMap.cpp.s:
 	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f HuffmanCompression\CMakeFiles\huffmancompression.dir\build.make HuffmanCompression/CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.s
 .PHONY : src/FrequenceMap.cpp.s
 
+src/Huffman.obj: src/Huffman.cpp.obj
+
+.PHONY : src/Huffman.obj
+
+# target to build an object file
+src/Huffman.cpp.obj:
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f HuffmanCompression\CMakeFiles\huffmancompression.dir\build.make HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Huffman.cpp.obj
+.PHONY : src/Huffman.cpp.obj
+
+src/Huffman.i: src/Huffman.cpp.i
+
+.PHONY : src/Huffman.i
+
+# target to preprocess a source file
+src/Huffman.cpp.i:
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f HuffmanCompression\CMakeFiles\huffmancompression.dir\build.make HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Huffman.cpp.i
+.PHONY : src/Huffman.cpp.i
+
+src/Huffman.s: src/Huffman.cpp.s
+
+.PHONY : src/Huffman.s
+
+# target to generate assembly for a file
+src/Huffman.cpp.s:
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FileCompressor\build && $(MAKE) $(MAKESILENT) -f HuffmanCompression\CMakeFiles\huffmancompression.dir\build.make HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Huffman.cpp.s
+.PHONY : src/Huffman.cpp.s
+
 src/HuffmanCompression.obj: src/HuffmanCompression.cpp.obj
 
 .PHONY : src/HuffmanCompression.obj
@@ -290,6 +317,9 @@ help:
 	@echo ... src/FrequenceMap.obj
 	@echo ... src/FrequenceMap.i
 	@echo ... src/FrequenceMap.s
+	@echo ... src/Huffman.obj
+	@echo ... src/Huffman.i
+	@echo ... src/Huffman.s
 	@echo ... src/HuffmanCompression.obj
 	@echo ... src/HuffmanCompression.i
 	@echo ... src/HuffmanCompression.s

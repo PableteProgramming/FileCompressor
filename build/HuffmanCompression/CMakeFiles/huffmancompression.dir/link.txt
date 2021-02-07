@@ -1,2 +1,2 @@
-C:\MinGW\bin\ar.exe qc libhuffmancompression.a CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.obj CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.obj CMakeFiles/huffmancompression.dir/src/Node.cpp.obj CMakeFiles/huffmancompression.dir/src/MapSorter.cpp.obj CMakeFiles/huffmancompression.dir/src/Tree.cpp.obj
+C:\MinGW\bin\ar.exe qc libhuffmancompression.a CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.obj CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.obj CMakeFiles/huffmancompression.dir/src/Node.cpp.obj CMakeFiles/huffmancompression.dir/src/MapSorter.cpp.obj CMakeFiles/huffmancompression.dir/src/Tree.cpp.obj CMakeFiles/huffmancompression.dir/src/Huffman.cpp.obj
 C:\MinGW\bin\ranlib.exe libhuffmancompression.a
