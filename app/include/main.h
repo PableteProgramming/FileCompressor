@@ -5,7 +5,7 @@
 //#include <HuffmanCompression.h>
 #include <Huffman.h>
 #include <fstream>
-#include "WriteFile.h"
+//#include "WriteFile.h"
 using namespace std;
 
 vector<string> StringToArrayOfCharsString(string s){

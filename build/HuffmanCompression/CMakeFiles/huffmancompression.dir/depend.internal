@@ -10,6 +10,7 @@ HuffmanCompression/CMakeFiles/huffmancompression.dir/src/Huffman.cpp.obj
  ../HuffmanCompression/include/MapSorter.h
  ../HuffmanCompression/include/Node.h
  ../HuffmanCompression/include/Tree.h
+ ../HuffmanCompression/include/WriteFile.h
  C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/Huffman.cpp
 HuffmanCompression/CMakeFiles/huffmancompression.dir/src/HuffmanCompression.cpp.obj
  ../HuffmanCompression/include/FrequenceMap.h

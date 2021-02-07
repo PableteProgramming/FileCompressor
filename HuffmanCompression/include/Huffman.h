@@ -1,22 +1,30 @@
 #include <vector>
 #include <string>
+#include <fstream>
 #include "FrequenceMap.h"
 #include "MapSorter.h"
 #include "Tree.h"
+#include "WriteFile.h"
 using namespace std;
 
 namespace Huffman{
-    class Text{
+    class Utilities{
+    protected:
+        vector<pair<string,string>> GetCodes(vector<string>);
+        string CodesToString(vector<pair<string, string>>, string);
     private:
-        vector<string> StringToStringArray(string);
         vector<Node*> VectorPairToVectorNode(vector<pair<string,int>>);
         Tree CreateTree(vector<Node*>);
         string GetLetterCode(Tree,string,string);
-        int GetIndexToPos(vector<Node*>,Node*);
         vector<Node*> DeleteVectorElemTo(vector<Node*>,int);
         bool CharInString(string, string);
-        string CodesToString(vector<pair<string, string>>, string);
+        int GetIndexToPos(vector<Node*>,Node*);
         int GetLetterCodeIndex(vector<pair<string, string>>, string);
+    };
+
+    class Text : Utilities{
+    private:
+        vector<string> StringToStringArray(string);
         bool CodeExists(vector<pair<string,string>>, string);
         string GetCharWithCode(vector<pair<string,string>>, string);
     public:
@@ -24,14 +32,13 @@ namespace Huffman{
         string Decompress(vector<pair<string, string>>,string);
     };
 
-    class File{
+    class File : Utilities{
     private:
-        vector<pair<string, string>> codes;
-        string inputfilename;
-        string outputfilename;
+        vector<string> StringToArrayOfCharsString(string);
+        string CharArrayToString(vector<char>);
+        vector<int> CompressedTextToVectorOfInt(string);
     public:
-        File(string i,string o) : inputfilename(i), outputfilename(o){};
-        void Compress();
-        void Decompress();
+        vector<pair<string, string>> Compress(string,string);
+        void Decompress(vector<pair<string, string>>,string,string);
     };
 };

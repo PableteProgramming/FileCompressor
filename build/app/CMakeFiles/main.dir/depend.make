@@ -9,7 +9,7 @@ app/CMakeFiles/main.dir/src/main.cpp.obj: ../HuffmanCompression/include/Huffman.
 app/CMakeFiles/main.dir/src/main.cpp.obj: ../HuffmanCompression/include/MapSorter.h
 app/CMakeFiles/main.dir/src/main.cpp.obj: ../HuffmanCompression/include/Node.h
 app/CMakeFiles/main.dir/src/main.cpp.obj: ../HuffmanCompression/include/Tree.h
-app/CMakeFiles/main.dir/src/main.cpp.obj: ../app/include/WriteFile.h
+app/CMakeFiles/main.dir/src/main.cpp.obj: ../HuffmanCompression/include/WriteFile.h
 app/CMakeFiles/main.dir/src/main.cpp.obj: ../app/include/main.h
 app/CMakeFiles/main.dir/src/main.cpp.obj: ../app/src/main.cpp
 

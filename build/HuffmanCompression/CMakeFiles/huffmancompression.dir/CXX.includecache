@@ -17,12 +17,16 @@ vector
 -
 string
 -
+fstream
+-
 FrequenceMap.h
 ../HuffmanCompression/include/FrequenceMap.h
 MapSorter.h
 ../HuffmanCompression/include/MapSorter.h
 Tree.h
 ../HuffmanCompression/include/Tree.h
+WriteFile.h
+../HuffmanCompression/include/WriteFile.h
 
 ../HuffmanCompression/include/MapSorter.h
 vector
@@ -41,6 +45,12 @@ string
 ../HuffmanCompression/include/Tree.h
 Node.h
 ../HuffmanCompression/include/Node.h
+
+../HuffmanCompression/include/WriteFile.h
+fstream
+-
+vector
+-
 
 C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/HuffmanCompression/src/Huffman.cpp
 Huffman.h

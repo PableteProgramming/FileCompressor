@@ -96,13 +96,17 @@ int main(){
 
 	file3.close();*/
 
-	Huffman::Text textcompressor;
+	/*Huffman::Text textcompressor;
 
 	pair<string,vector<pair<string, string>>> textcompressorcontent= textcompressor.Compress("banana");
 
 	cout<<"compressed banana: "<<textcompressorcontent.first<<endl;
 
-	cout<<"decompressed banana: "<<textcompressor.Decompress(textcompressorcontent.second,textcompressorcontent.first)<<endl;
+	cout<<"decompressed banana: "<<textcompressor.Decompress(textcompressorcontent.second,textcompressorcontent.first)<<endl;*/
+
+	Huffman::File filecompressor;
+
+	vector<pair<string,string>> codes= filecompressor.Compress("temp.txt","temp.txt.huff");
 
 	cout<<"\nPress something to exit...";
 

@@ -10,6 +10,6 @@ app/CMakeFiles/main.dir/src/main.cpp.obj
  ../HuffmanCompression/include/MapSorter.h
  ../HuffmanCompression/include/Node.h
  ../HuffmanCompression/include/Tree.h
- ../app/include/WriteFile.h
+ ../HuffmanCompression/include/WriteFile.h
  ../app/include/main.h
  C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/app/src/main.cpp
