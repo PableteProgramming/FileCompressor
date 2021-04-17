@@ -296,10 +296,8 @@ vector<pair<string, string>> Huffman::File::Compress(string i, string o){
     }
 
     WriteFile filewriter(file1);
-
-	filewriter.Write(compTextInt);
-
-	file1.close();
+    filewriter.Write(compTextInt,codes);
+    file1.close();
 
     return codes;
 

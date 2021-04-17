@@ -11,4 +11,5 @@ target_sources(
     ${SRC_DIR}/MapSorter.cpp
     ${SRC_DIR}/Tree.cpp
     ${SRC_DIR}/WriteFile.cpp
+    ${SRC_DIR}/Hex.cpp
 )

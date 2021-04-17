@@ -1,10 +1,15 @@
 #include "WriteFile.h"
 
-void WriteFile::Write(vector<int> compressedText){
+void WriteFile::Write(vector<int> compressedText,vector<pair<string,string>> codes){
     int buffersize=0;
     char buffer=0;
     int bit;
     string r="";
+    string codestogether="";
+    for(int i=0; i<codes.size();i++){
+	codestogether+= codes[i].first+","+codes[i].second+";";
+    }
+    string hexcodes= Hex::string_to_hex(codestogether);
 
     for(int i=0;i<compressedText.size();i++){
         bit=compressedText[i];
@@ -30,6 +35,6 @@ void WriteFile::Write(vector<int> compressedText){
         buffersize++;
 
     }
-    r= to_string(buffersize)+"\n"+r;
+    r= hexcodes+"\n"+to_string(buffersize)+"\n"+r;
     outfile<< r;
 }

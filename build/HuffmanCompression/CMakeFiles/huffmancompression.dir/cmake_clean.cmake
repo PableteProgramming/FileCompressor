@@ -1,10 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.obj"
-  "CMakeFiles/huffmancompression.dir/src/Huffman.cpp.obj"
-  "CMakeFiles/huffmancompression.dir/src/MapSorter.cpp.obj"
-  "CMakeFiles/huffmancompression.dir/src/Node.cpp.obj"
-  "CMakeFiles/huffmancompression.dir/src/Tree.cpp.obj"
-  "CMakeFiles/huffmancompression.dir/src/WriteFile.cpp.obj"
+  "CMakeFiles/huffmancompression.dir/src/FrequenceMap.cpp.o"
+  "CMakeFiles/huffmancompression.dir/src/Hex.cpp.o"
+  "CMakeFiles/huffmancompression.dir/src/Huffman.cpp.o"
+  "CMakeFiles/huffmancompression.dir/src/MapSorter.cpp.o"
+  "CMakeFiles/huffmancompression.dir/src/Node.cpp.o"
+  "CMakeFiles/huffmancompression.dir/src/Tree.cpp.o"
+  "CMakeFiles/huffmancompression.dir/src/WriteFile.cpp.o"
   "libhuffmancompression.a"
   "libhuffmancompression.pdb"
 )

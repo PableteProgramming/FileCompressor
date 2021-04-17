@@ -12,6 +12,18 @@ vector
 string
 -
 
+../HuffmanCompression/include/Hex.h
+stdexcept
+-
+sstream
+-
+iomanip
+-
+string
+-
+cstdint
+-
+
 ../HuffmanCompression/include/Huffman.h
 vector
 -
@@ -51,6 +63,8 @@ fstream
 -
 vector
 -
+Hex.h
+../HuffmanCompression/include/Hex.h
 
 ../app/include/main.h
 string
@@ -66,7 +80,7 @@ Huffman.h
 fstream
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/app/src/main.cpp
+/home/pablo/Documents/Programming/C++/FileCompressor/app/src/main.cpp
 main.h
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/app/src/main.h
+/home/pablo/Documents/Programming/C++/FileCompressor/app/src/main.h
 

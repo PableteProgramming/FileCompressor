@@ -1,8 +1,8 @@
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/CMakeFiles/edit_cache.dir
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/CMakeFiles/rebuild_cache.dir
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/HuffmanCompression/CMakeFiles/edit_cache.dir
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/HuffmanCompression/CMakeFiles/huffmancompression.dir
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/HuffmanCompression/CMakeFiles/rebuild_cache.dir
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/app/CMakeFiles/edit_cache.dir
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/app/CMakeFiles/main.dir
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FileCompressor/build/app/CMakeFiles/rebuild_cache.dir
+/home/pablo/Documents/Programming/C++/FileCompressor/build/CMakeFiles/rebuild_cache.dir
+/home/pablo/Documents/Programming/C++/FileCompressor/build/CMakeFiles/edit_cache.dir
+/home/pablo/Documents/Programming/C++/FileCompressor/build/HuffmanCompression/CMakeFiles/rebuild_cache.dir
+/home/pablo/Documents/Programming/C++/FileCompressor/build/HuffmanCompression/CMakeFiles/edit_cache.dir
+/home/pablo/Documents/Programming/C++/FileCompressor/build/HuffmanCompression/CMakeFiles/huffmancompression.dir
+/home/pablo/Documents/Programming/C++/FileCompressor/build/app/CMakeFiles/rebuild_cache.dir
+/home/pablo/Documents/Programming/C++/FileCompressor/build/app/CMakeFiles/edit_cache.dir
+/home/pablo/Documents/Programming/C++/FileCompressor/build/app/CMakeFiles/main.dir
